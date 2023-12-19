@@ -1,13 +1,13 @@
 <template>
   <header>
     <div>
-      <HelloWorld />
+      <header-comp />
     </div>
   </header>
 </template>
 
 <script setup>
-import HelloWorld from "./components/HelloWorld.vue";
+import HeaderComp from "./components/HeaderComp.vue";
 </script>
 
 <style scoped></style>
