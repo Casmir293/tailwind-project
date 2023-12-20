@@ -8,10 +8,19 @@
 
       <!-- mobile menu icon -->
       <section
-        class="cursor-pointer text-2xl sm:hidden"
+        class="transform cursor-pointer text-2xl sm:hidden"
+        v-if="!isMobileMenu"
         @click="toggleMobileMenu"
       >
         &#9776;
+      </section>
+
+      <section
+        class="transform cursor-pointer text-2xl sm:hidden"
+        v-else
+        @click="toggleMobileMenu"
+      >
+        &times;
       </section>
 
       <!-- desktop menu -->
@@ -34,29 +43,31 @@
     </nav>
 
     <!-- mobile menu -->
-    <section
-      v-if="isMobileMenu"
-      class="flex h-screen items-center justify-center bg-black py-6 text-center text-3xl sm:hidden"
+    <transition name="slide">
+      <section
+        v-if="isMobileMenu"
+        class="z-10 flex h-screen items-center justify-center bg-black py-6 text-center text-3xl sm:hidden"
+      >
+        <ul class="space-y-12">
+          <li id="#" class="hover:animate-bounce hover:text-slate-300">Home</li>
+          <li id="#rockets" class="hover:animate-bounce hover:text-slate-300">
+            Our Rockets
+          </li>
+          <li
+            id="#testimonials"
+            class="hover:animate-bounce hover:text-slate-300"
+          >
+            Testimonials
+          </li>
+          <li id="#contact" class="hover:animate-bounce hover:text-slate-300">
+            Contact Us
+          </li>
+          <li id="#legal" class="hover:animate-bounce hover:text-slate-300">
+            Legal
+          </li>
+        </ul>
+      </section></transition
     >
-      <ul class="space-y-12">
-        <li id="#" class="hover:animate-bounce hover:text-slate-300">Home</li>
-        <li id="#rockets" class="hover:animate-bounce hover:text-slate-300">
-          Our Rockets
-        </li>
-        <li
-          id="#testimonials"
-          class="hover:animate-bounce hover:text-slate-300"
-        >
-          Testimonials
-        </li>
-        <li id="#contact" class="hover:animate-bounce hover:text-slate-300">
-          Contact Us
-        </li>
-        <li id="#legal" class="hover:animate-bounce hover:text-slate-300">
-          Legal
-        </li>
-      </ul>
-    </section>
   </header>
 </template>
 
@@ -70,4 +81,18 @@ const toggleMobileMenu = () => {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+/* mobile menu transition */
+.slide-enter-from {
+  transform: translateX(100%);
+}
+
+.slide-enter-active,
+.slide-leave-active {
+  transition: transform 0.5s;
+}
+
+.slide-leave-to {
+  transform: translateX(-100%);
+}
+</style>
