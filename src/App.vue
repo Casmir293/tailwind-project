@@ -1,9 +1,7 @@
 <template>
-  <header>
-    <div>
-      <header-comp />
-    </div>
-  </header>
+  <section class="font-mono">
+    <header-comp />
+  </section>
 </template>
 
 <script setup>
