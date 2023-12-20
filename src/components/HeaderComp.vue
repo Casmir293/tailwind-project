@@ -7,7 +7,12 @@
       <a href="#">🚀 Acme Rockets</a>
 
       <!-- mobile menu icon -->
-      <section class="cursor-pointer text-2xl sm:hidden">&#9776;</section>
+      <section
+        class="cursor-pointer text-2xl sm:hidden"
+        @click="toggleMobileMenu"
+      >
+        &#9776;
+      </section>
 
       <!-- desktop menu -->
       <section class="hidden cursor-pointer text-base font-semibold sm:block">
@@ -30,7 +35,8 @@
 
     <!-- mobile menu -->
     <section
-      class="flex h-screen items-center justify-center bg-black py-6 text-center text-lg sm:hidden"
+      v-if="isMobileMenu"
+      class="flex h-screen items-center justify-center bg-black py-6 text-center text-3xl sm:hidden"
     >
       <ul class="space-y-12">
         <li id="#" class="hover:animate-bounce hover:text-slate-300">Home</li>
@@ -54,6 +60,14 @@
   </header>
 </template>
 
-<script setup></script>
+<script setup>
+import { ref } from "vue";
+
+const isMobileMenu = ref(false);
+
+const toggleMobileMenu = () => {
+  isMobileMenu.value = !isMobileMenu.value;
+};
+</script>
 
 <style scoped></style>
