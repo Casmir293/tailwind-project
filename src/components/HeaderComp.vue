@@ -1,7 +1,7 @@
 <template>
   <header class="w-100 fixed left-0 right-0 top-0 h-14 bg-green-800 text-white">
     <nav
-      class="m-auto flex h-14 max-w-5xl items-center justify-between px-3 text-xl font-bold"
+      class="m-auto flex h-14 max-w-4xl items-center justify-between px-3 text-xl font-bold sm:px-5"
     >
       <!-- logo -->
       <a href="#">🚀 Acme Rockets</a>

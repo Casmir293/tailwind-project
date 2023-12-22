@@ -3,7 +3,7 @@
     <!-- header -->
     <header-comp />
 
-    <main>
+    <main class="w-100 bg-black text-white">
       <!-- hero -->
       <hero />
 
