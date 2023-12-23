@@ -9,6 +9,9 @@
 
       <!-- our rockets -->
       <rockets />
+
+      <!-- testimonials -->
+      <testimonials />
     </main>
 
     <!-- footer -->
@@ -20,5 +23,6 @@
 import HeaderComp from "./components/HeaderComp.vue";
 import Hero from "./components/HeroComp.vue";
 import Rockets from "./components/RocketsComp.vue";
+import Testimonials from "./components/TestimonialComp.vue";
 import FooterComp from "./components/FooterComp.vue";
 </script>
