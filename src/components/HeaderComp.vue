@@ -26,8 +26,8 @@
       <!-- desktop menu -->
       <section class="hidden cursor-pointer text-base font-semibold sm:block">
         <ul class="flex space-x-6">
-          <li id="#rockets" class="hover:animate-bounce hover:text-slate-300">
-            Our Rockets
+          <li class="hover:animate-bounce hover:text-slate-300">
+            <a href="#rockets">Our Rockets</a>
           </li>
           <li
             id="#testimonials"
@@ -50,8 +50,8 @@
       >
         <ul class="space-y-12">
           <li id="#" class="hover:animate-bounce hover:text-slate-300">Home</li>
-          <li id="#rockets" class="hover:animate-bounce hover:text-slate-300">
-            Our Rockets
+          <li class="hover:animate-bounce hover:text-slate-300">
+            <a href="#rockets">Our Rockets</a>
           </li>
           <li
             id="#testimonials"

@@ -1,5 +1,8 @@
 <template>
-  <section id="rockets" class="mx-auto max-w-4xl text-center">
+  <section
+    id="rockets"
+    class="mx-auto max-w-4xl text-center sm:flex sm:h-screen sm:flex-col sm:justify-center"
+  >
     <p class="my-16 text-2xl font-bold lg:text-3xl">Our Rockets</p>
 
     <section class="flex flex-col px-4 sm:flex-row">
@@ -66,7 +69,7 @@
       </section>
     </section>
   </section>
-  <hr class="m-auto my-20 w-1/2 lg:w-1/4" />
+  <hr class="m-auto my-20 w-1/2 sm:my-0 lg:w-1/4" />
 </template>
 
 <script setup></script>
