@@ -1,6 +1,6 @@
 <template>
   <section id="rockets" class="mx-auto max-w-4xl text-center">
-    <p class="my-16 text-2xl font-bold">Our Rockets</p>
+    <p class="my-16 text-2xl font-bold lg:text-3xl">Our Rockets</p>
 
     <section class="flex flex-col px-4 sm:flex-row">
       <!-- card one -->

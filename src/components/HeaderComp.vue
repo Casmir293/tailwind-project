@@ -4,7 +4,7 @@
       class="m-auto flex h-14 max-w-4xl items-center justify-between px-3 text-xl font-bold sm:px-5"
     >
       <!-- logo -->
-      <a href="#">🚀 Acme Rockets</a>
+      <a href="#" class="lg:text-3xl">🚀 Acme Rockets</a>
 
       <!-- mobile menu icon -->
       <section

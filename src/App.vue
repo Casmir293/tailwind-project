@@ -26,3 +26,9 @@ import Rockets from "./components/RocketsComp.vue";
 import Testimonials from "./components/TestimonialComp.vue";
 import FooterComp from "./components/FooterComp.vue";
 </script>
+
+<style>
+* {
+  scroll-behavior: smooth;
+}
+</style>
