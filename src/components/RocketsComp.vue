@@ -66,7 +66,7 @@
       </section>
     </section>
   </section>
-  <hr class="m-auto my-16 w-1/2 lg:w-1/4" />
+  <hr class="m-auto my-20 w-1/2 lg:w-1/4" />
 </template>
 
 <script setup></script>
