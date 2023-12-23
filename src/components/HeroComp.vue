@@ -3,7 +3,7 @@
     class="m-auto flex h-screen max-w-4xl flex-col items-center justify-center px-3 pt-14 text-center text-slate-400 sm:flex-row-reverse sm:px-5 sm:text-left"
   >
     <img
-      class="h-auto w-2/3 animate-pulse"
+      class="h-auto w-2/3"
       src="https://acme-rockets.onrender.com/img/rocketdab.png"
       alt="rocket man"
     />
