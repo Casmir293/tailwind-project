@@ -2,7 +2,7 @@
   <section id="rockets" class="mx-auto max-w-4xl text-center">
     <p class="my-16 text-2xl font-bold">Our Rockets</p>
 
-    <section class="flex flex-col sm:flex-row">
+    <section class="flex flex-col px-4 sm:flex-row">
       <!-- card one -->
       <section
         class="mx-auto flex w-1/2 flex-col items-center rounded-3xl border border-slate-400 py-4"
@@ -26,7 +26,7 @@
 
       <!-- card two -->
       <section
-        class="mx-auto my-8 flex w-1/2 flex-col items-center rounded-3xl border border-slate-400 py-4 lg:mx-8 lg:my-0"
+        class="mx-auto my-8 flex w-1/2 flex-col items-center rounded-3xl border border-slate-400 py-4 sm:mx-8 sm:my-0"
       >
         <img
           class="my-3 h-auto w-3/5"
@@ -70,5 +70,3 @@
 </template>
 
 <script setup></script>
-
-<style lang="scss" scoped></style>

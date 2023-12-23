@@ -22,5 +22,3 @@ import Hero from "./components/HeroComp.vue";
 import Rockets from "./components/RocketsComp.vue";
 import FooterComp from "./components/FooterComp.vue";
 </script>
-
-<style scoped></style>
