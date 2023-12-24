@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-green-800 text-white">
+  <footer id="legal" class="bg-green-800 text-white">
     <section
       class="mx-auto flex max-w-4xl flex-col px-3 py-6 sm:flex-row sm:justify-around sm:px-5"
     >

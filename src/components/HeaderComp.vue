@@ -47,19 +47,19 @@
       >
         <ul class="space-y-12">
           <li class="hover:animate-bounce hover:text-slate-300">
-            <a href="#">Home</a>
+            <a href="#" @click="closeMobileMenu">Home</a>
           </li>
           <li class="hover:animate-bounce hover:text-slate-300">
-            <a href="#rockets">Our Rockets</a>
+            <a href="#rockets" @click="closeMobileMenu">Our Rockets</a>
           </li>
           <li class="hover:animate-bounce hover:text-slate-300">
-            <a href="#testimonials">Testimonials</a>
+            <a href="#testimonials" @click="closeMobileMenu">Testimonials</a>
           </li>
           <li class="hover:animate-bounce hover:text-slate-300">
-            <a href="#contact">Contact Us</a>
+            <a href="#contact" @click="closeMobileMenu">Contact Us</a>
           </li>
           <li class="hover:animate-bounce hover:text-slate-300">
-            <a href="#legal">Legal</a>
+            <a href="#legal" @click="closeMobileMenu">Legal</a>
           </li>
         </ul>
       </section></transition
@@ -74,6 +74,10 @@ const isMobileMenu = ref(false);
 
 const toggleMobileMenu = () => {
   isMobileMenu.value = !isMobileMenu.value;
+};
+
+const closeMobileMenu = () => {
+  isMobileMenu.value = false;
 };
 </script>
 
