@@ -31,13 +31,15 @@
       </section>
 
       <section class="text-right sm:text-left">
-        Copyright &copy; 2022 <br />
+        Copyright &copy; {{ currentYear }} <br />
         All Rights Reserved
       </section>
     </section>
   </footer>
 </template>
 
-<script setup></script>
+<script setup>
+const currentYear = new Date().getFullYear();
+</script>
 
 <style lang="scss" scoped></style>
