@@ -29,14 +29,11 @@
           <li class="hover:animate-bounce hover:text-slate-300">
             <a href="#rockets">Our Rockets</a>
           </li>
-          <li
-            id="#testimonials"
-            class="hover:animate-bounce hover:text-slate-300"
-          >
-            Testimonials
+          <li class="hover:animate-bounce hover:text-slate-300">
+            <a href="#testimonials">Testimonials</a>
           </li>
-          <li id="#contact" class="hover:animate-bounce hover:text-slate-300">
-            Contact Us
+          <li class="hover:animate-bounce hover:text-slate-300">
+            <a href="#contact">Contact Us</a>
           </li>
         </ul>
       </section>
@@ -49,21 +46,20 @@
         class="z-10 flex h-screen items-center justify-center bg-black py-6 text-center text-3xl sm:hidden"
       >
         <ul class="space-y-12">
-          <li id="#" class="hover:animate-bounce hover:text-slate-300">Home</li>
+          <li class="hover:animate-bounce hover:text-slate-300">
+            <a href="#">Home</a>
+          </li>
           <li class="hover:animate-bounce hover:text-slate-300">
             <a href="#rockets">Our Rockets</a>
           </li>
-          <li
-            id="#testimonials"
-            class="hover:animate-bounce hover:text-slate-300"
-          >
-            Testimonials
+          <li class="hover:animate-bounce hover:text-slate-300">
+            <a href="#testimonials">Testimonials</a>
           </li>
-          <li id="#contact" class="hover:animate-bounce hover:text-slate-300">
-            Contact Us
+          <li class="hover:animate-bounce hover:text-slate-300">
+            <a href="#contact">Contact Us</a>
           </li>
-          <li id="#legal" class="hover:animate-bounce hover:text-slate-300">
-            Legal
+          <li class="hover:animate-bounce hover:text-slate-300">
+            <a href="#legal">Legal</a>
           </li>
         </ul>
       </section></transition
