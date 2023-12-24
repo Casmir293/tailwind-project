@@ -1,6 +1,8 @@
 <template>
   <section id="testimonials" class="mx-auto max-w-4xl px-3 sm:px-5">
-    <p class="my-16 text-center text-2xl font-bold lg:text-3xl">Testimonials</p>
+    <p class="my-16 text-center text-2xl font-bold sm:mt-24 lg:text-3xl">
+      Testimonials
+    </p>
 
     <!-- first quote -->
     <section class="flex flex-col text-slate-400 sm:text-2xl">
