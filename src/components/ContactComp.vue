@@ -8,7 +8,7 @@
     </p>
 
     <section>
-      <form action="">
+      <form action="https://httpbin.org/get" method="get">
         <label for="subject" class="my-4 block">Subject:</label>
         <input
           type="text"
