@@ -1,5 +1,8 @@
 <template>
-  <section id="testimonials" class="mx-auto max-w-4xl px-3 sm:px-5">
+  <section
+    id="testimonials"
+    class="mx-auto max-w-4xl scroll-mt-32 px-3 sm:px-5"
+  >
     <p class="my-16 text-center text-2xl font-bold sm:mt-24 lg:text-3xl">
       Testimonials
     </p>

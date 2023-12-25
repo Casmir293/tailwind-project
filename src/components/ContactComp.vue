@@ -1,5 +1,8 @@
 <template>
-  <section id="contact" class="mx-auto max-w-4xl px-3 pb-14 sm:px-5">
+  <section
+    id="contact"
+    class="mx-auto max-w-4xl scroll-mt-32 px-3 pb-14 sm:px-5"
+  >
     <p class="mb-5 mt-16 text-center text-2xl font-bold sm:mt-24 lg:text-3xl">
       Contact Us
     </p>

@@ -1,7 +1,7 @@
 <template>
   <section
     id="rockets"
-    class="mx-auto max-w-4xl text-center sm:flex sm:h-screen sm:flex-col sm:justify-center"
+    class="mx-auto max-w-4xl scroll-mt-16 text-center sm:flex sm:h-screen sm:flex-col sm:justify-center"
   >
     <p class="my-16 text-2xl font-bold lg:text-3xl">Our Rockets</p>
 
