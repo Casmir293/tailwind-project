@@ -1,9 +1,11 @@
 <template>
   <section
     id="testimonials"
-    class="mx-auto max-w-4xl scroll-mt-32 px-3 sm:px-5"
+    class="testimonials mx-auto max-w-4xl scroll-mt-32 px-3 sm:px-5"
   >
-    <p class="my-16 text-center text-2xl font-bold sm:mt-24 lg:text-3xl">
+    <p
+      class="pin my-6 bg-black py-10 text-center text-2xl font-bold sm:mt-24 lg:text-3xl"
+    >
       Testimonials
     </p>
 
@@ -77,4 +79,23 @@
   <hr class="m-auto my-20 w-1/2 lg:w-1/4" />
 </template>
 
-<script setup></script>
+<script setup>
+import { onMounted } from "vue";
+import gsap from "gsap";
+import ScrollTrigger from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
+
+onMounted(() => {
+  gsap.from(".testimonials", {
+    scrollTrigger: {
+      trigger: ".testimonials",
+      start: "top +=56px",
+      end: "80%",
+      scrub: true,
+      pin: ".pin",
+      pinSpacing: false,
+    },
+  });
+});
+</script>
